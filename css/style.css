@@ -1,27 +1,36 @@
+/*
+Tá divertido mexer com cores e tamanhos, sei que
+não é a coisa mais linda de se ver, mas, é aprendizado conceitual.
+*/
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     font-family:'Courier New', Courier, monospace;
-    background-color: #778899;
+    background-color: #99bbb4;
 }
-
 body {
     background-color: url('img/topo.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.cabecalho {
+
+.head {
     display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
     padding: 5px;
-    background-color: #93bbe4;
+    background-color: #e493c9;
     color: #0a0909;
 }
+.placeholder{
+    color: rgb(247, 42, 42);
+    background-color: rgb(238, 19, 19);
 
+}
 .card-conteiner {
     display: flex;
     width: 100%;
@@ -29,62 +38,32 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;   
 }
-
-.ilustracao {
-    display: flex;
-    margin: 10px;
-    border-radius: 5px;
-    width: 600px 250px;
-}
-
-.bloco-post {
+.post {
     justify-content: space-between;
-    color: white;
+    color: rgb(230, 21, 21);
     margin: 10px;
     display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
-    border: 1px solid white;
+    border: 5px solid rgb(10, 13, 223);
     flex-basis: 50px;
     flex-grow: 2;
 }
-
 .button:hover {
     cursor: pointer;
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(184, 49, 177);
+    color: rgb(129, 233, 129);
 }
-
-
 footer {
-    /* display: block;
+    display: block;
     text-align: center;
     padding: 3px;
     background-color: #708090;
-    color: #000; */
+    color: #000;
     text-decoration: none;
-    text-align: center;
-    background-color: #f9f9f9ff;
     width: 100%;
     height: 100%;
     left: 100px;
-    margin-top: 50px;
-
-}
-/* 
-.rodape {
-    display: flex;
-    width: auto;
-    align-items: center;
-    text-align: center;
-} */
-
-.text-rodape {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: #000;
+    margin-top: 10px;
 }
